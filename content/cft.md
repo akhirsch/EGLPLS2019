@@ -26,9 +26,9 @@ To see how to get to Cornell, please see the [venue](/venue.html) page.
 
 ### Deadlines and Important Dates
 
-- **4/20** EGLPLS
-- **4/04** Notification of Talks
-- **3/20** Deadline for Talk Abstracts
+- **~~4/20~~ 5/10** EGLPLS
+- **~~4/04~~ 4/24** Notification of Talks
+- **~~3/20~~ ~~4/10~~ 4/23** Deadline for Talk Abstracts
 
 ### Organization
 
