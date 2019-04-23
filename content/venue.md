@@ -7,6 +7,10 @@ title: Venue
 EGLPLS will be held on April 19th, 2019 at [Cornell University](https://www.cornell.edu) in [Ithaca, NY](https://www.cityofithaca.org/).
 Talks will be held in Statler Hall.
 
+### Registration
+
+If you are planning on attending EGLPLS, please [register](https://forms.gle/jvyrgq8qYwC9BbSS7).
+
 ### Getting To Ithaca
 
 You can get to Ithaca via Car, Bus, or Plane.
