@@ -4,8 +4,8 @@ title: Venue
 
 ## Venue
 
-EGLPLS will be held on April 20th, 2019 at [Cornell University](https://www.cornell.edu) in [Ithaca, NY](https://www.cityofithaca.org/).
-Talks will be held in [Gates Hall](https://www.cis.cornell.edu/bill-melinda-gates-hall) G01, with refreshments in the Gates Hall Ground Floor Atrium.
+EGLPLS will be held on April 19th, 2019 at [Cornell University](https://www.cornell.edu) in [Ithaca, NY](https://www.cityofithaca.org/).
+Talks will be held in Statler Hall.
 
 ### Getting To Ithaca
 
@@ -36,6 +36,5 @@ There are several companies that have busses into Ithaca, including:
 
 ### Map
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.1896475810754!2d-76.48327988390156!3d42.444980837725865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0818b5e725517%3A0x7098683a6a981542!2sBill+and+Melinda+Gates+Hall!5e0!3m2!1sen!2sus!4v1546976653978" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.1665330308724!2d-76.4842565837158!3d42.44547267918121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0818b7715e415%3A0x8f3c9ecd46fbf32e!2sStatler+Hall+and+Auditorium!5e0!3m2!1sen!2sus!4v1548787116838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 

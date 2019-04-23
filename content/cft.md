@@ -6,7 +6,7 @@ title: Call for Talks
 
 I'm excited to announce the Eastern Great Lakes Programming Languages Symposium (EGLPLS), a new symposium series. This will serve as an informal way for programming languages researchers in thee Eastern Great Lakes area (NY, PA, Ontario, ...) to discuss research and spread ideas. It gives an opportunity to talk with peers in the area about ongoing research, unvarnished ideas, and small contributions. It will be very similar in style to NEPLS and NJPLS.
 
-The first EGLPLS will take place on April 20th, 2019 at Cornell University in Ithaca, NY. If you're interested in giving a talk, please fill out [this form][form]. More details about logistics for the day will take place soon.
+The first EGLPLS will take place on April 19th, 2019 at Cornell University in Ithaca, NY. If you're interested in giving a talk, please fill out [this form][form]. More details about logistics for the day will take place soon.
 
 We hope to see you, your students, and your colleagues in April!
 
@@ -26,7 +26,7 @@ To see how to get to Cornell, please see the [venue](/venue.html) page.
 
 ### Deadlines and Important Dates
 
-- **4/20** EGLPLS
+- **4/19** EGLPLS
 - **4/04** Notification of Talks
 - **3/20** Deadline for Talk Abstracts
 
