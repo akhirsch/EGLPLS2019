@@ -63,26 +63,15 @@ The key ingredient of our approach is a new lightweight type refinement discipli
 This discipline combined with Hoare-style triples built into the types allows us to express and establish precise relative costs of several interesting programs which imperatively update their data. 
 We have implemented ARel using ideas from bidirectional type checking.
 
-## TBD, Matthew Milano
+## A Tour of Gallifrey, a Language for Geodistributed Programming, Matthew Milano
 
 ### Abstract
-Concurrency makes everything hard.
-For many programmers, writing efficient concurrent datastructures is an exercise in scouring github and hoping that code quality and number of “stars” really do correlate. 
-When it comes time to write your own concurrent datastructures, queue many sleepless nights spent worrying about whether this or that particular concurrency primitive is fast enough, or correct enough, to make the code work at the speeds you need. 
-If there is any solace felt, it comes from the once-safe assumption of strong consistency; that, no matter how many races we might have missed, at least the result of the program will be some valid interleaving of concurrent threads.
 
-This assumption is wrong.
-
-Hardware isn’t as helpful as it once was. 
-Modern processor and language memory models reduce the available consistency assumptions so much that it’s possible to read values which were never written, justify your own reads, and arbitrarily miss updates from concurrent threads. 
-Simple patterns, like initializing an object and then handing it off directly to a newly-spawned thread, are simply not guaranteed to work. 
-And distribution makes everything harder; without a central clock or timing guarantees, the complexity of this reasoning grows exponentially.
-
-In this talk, we bring the power of programming languages to bear on the world of weakly-consistent, asynchronous distributed programming.
-Our secret sauce is information flow, a key technology borrowed from the security literature and applied with new life here. 
-Using information flow, it’s possible to ensure that weakly-consistent observations can never unduly influence strongly-consistent computations; it makes the points of crossover explicit, statically requiring that programmers upgrade the consistency of their observations when appropriate.
-We then can leverage this information to automatically partition transactions among a set of nodes, efficiently shipping the *computation* around a distributed system.
-Time permitting, we will also discuss some new results on using techniques to ensure convergence of weakly-consistent computations, providing the strong guarantee that even weakly-consistent, asynchronous computations can produce fully-consistent results. 
+Programming efficient distributed, concurrent systems requires new abstractions that go beyond traditional sequential programming. 
+But programmers already have trouble getting sequential code right, so simplicity is essential. 
+The core problem is that low-latency, high-availability access to data requires replication of mutable state. 
+Keeping replicas fully consistent is expensive, so the question is how to expose asynchronously replicated objects to programmers in a way that allows them to reason simply about their code. 
+We propose an answer to this question in our ongoing work designing a new language, Gallifrey, which provides orthogonal replication through restrictions with merge strategies, contingencies for conflicts arising from concurrency, and branches, a novel concurrency control construct inspired by version control, to contain provisional behavior.
 
 ## Manifest Deadlock-Freedom for Shared Session Types, Stephanie Balzer
 
