@@ -5,7 +5,7 @@ title: Venue
 ## Venue
 
 EGLPLS will be held on May 10th, 2019 at [Cornell University](https://www.cornell.edu) in [Ithaca, NY](https://www.cityofithaca.org/).
-Talks will be held in Statler Hall.
+Talks will be held in Gates Hall, G01.
 
 ### Registration
 
