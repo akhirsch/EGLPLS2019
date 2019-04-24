@@ -1,8 +1,8 @@
 ---
-title: Tentative Program
+title: Program
 ---
 
-## Tentative Program
+## Program
 
 ![](images/schedule.png){ width=150% }
 
