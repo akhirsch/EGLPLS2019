@@ -12,3 +12,11 @@ The 2019 Symposium will be taking place at [Cornell University](https://www.corn
 For information on the venue, including how to reach Cornell, see the [venue](/venue.html) page.
 
 You can also see the [call for talks](/cft.html) and the [program](/program.html).
+
+### Sponsor
+
+EGLPLS is generously sponsored by [GrammaTech][].
+
+![](images/grammatech_logo_lg.png){ width=75% .center }
+
+[grammatech]: https://www.grammatech.com
