@@ -1,6 +1,21 @@
 ---
 title: Talk Abstracts
 ---
+## An Overview of Computational Cubical Type Theory, Bob Harper
+
+### Abstract
+nterest in higher type theory emerged from the observation that the very limited ITT formalism can be interpreted into structures in which the "identity type" is populated with elements, called identifications, beyond just reflexivity, but nevertheless validating the universal property that maps out of it are determined by their behavior on reflexivity.
+The first example of this kind was the groupoid model in which types are interpreted as equivalence relations with evidence, with laws such as associativity of composition holding exactly.
+The univalence axiom proposed by Voevodsky states that identifications of universe elements (types) are given by equivalences, which may be considered as "weak isomorphisms" in which the inverse laws hold only up to further identification.
+To account for this requires an infinite-dimensional generalization of groupoids to weak $\omega$-groupoids, which provide just such structure.
+The extension of ITT with the univalence axiom provides a formal axiomatic theory of types as spaces identified up to equivalence, a formalism know as homotopy type theory, or HoTT.
+From one viewpoint ITT is to be regarded as analogous to first-order logic in that it is merely an axiomatic theory that can be equipped with whatever axioms you may wish to consider.
+From another viewpoint, including that of the speaker, type theory is rather a theory of computation that provides a theory of mathematical truth grounded in the innate human ability to understand algorithms, a perspective famously introduced by Brouwer long before there were computers.
+The central question raised by the univalence axiom is whether it can be understood computationally.
+In this talk I will describe a meaning explanation of type theory of the kind pioneered in the NuPRL Project that extends type theory to higher dimensions by regarding types, and their elements, as cubes presented by cubical programs in terms of a Cartesian coordinate system, with the crucial canonicity property that programs at any dimension that compute a Boolean point will evaluate to true or false.
+Moreover, the theory has recently been extended to give a (substructural) cubical account of Reynolds' concept of parametricity, without requiring impredicativity, and admitting an analogue of the univalence principle, called relativity, in which the bridges between types are given by binary relations.
+The RedTT implementation of these ideas is based on a formal extensional type theory using another cubical structure that, unlike the HoTT formalism, enjoys the property of computational adequacy, meaning that the formalism properly validates both the canonicity property and function extensionality, the only one of its kind in the higher-dimensional context.
+
 ## Categories for Higher-Dimensional Parametricity, Kristina Sojakova
 
 ### Abstract
@@ -8,8 +23,6 @@ title: Talk Abstracts
 We introduce a generalization of cubical sets, which we call cubical categories, and use it to develop a framework for higher-dimensional parametricity, all the way up to and including infinity. 
 Our framework has the crucial property that if a model is p-parametric according to our definition, then it is l-parametric for every l < p, which is a significant generalization of existing definitions of parametricity. 
 We illustrate our framework by giving a corresponding p-parametric model for System F when p <= 3.
-
-## TBD, Bob Harper
 
 ## Adaptivity Depth Analysis in Adaptive Data Analysis, Jiawen Liu
 
@@ -42,11 +55,13 @@ However, despite this recent trend in language design, it remains challenging to
 We present a new language design that addresses these challenges. 
 Through a novel generalization of algebraic-effect handlers to allow bidirectional effect propagation, the new design offers a unified approach to expressing versatile control flow in a both type-safe and abstraction-safe way.
 
-## TBD, Chen Ding
+## A Theory of Locality and its Applications, Chen Ding
 
 ### Abstract
-Program locality is defined by data reuses.
-I'll be happy to introduce the theory that connects data reuse to the cache performance and review several recent techniques of program locality analysis.
+Locality is increasingly the primary objective in the organization of a computing system.
+For software, locality is the quality of its data usage that determines the effectiveness of caching.
+A new characterization of this relation is the higher-order theory of locality (HOTL).
+This talk will introduce the theory and demonstrate its use in modeling and optimizing cache performance.
 
 ## Relational Const Analysis for Functional-Imperative Programs, Weihao Qu
 
