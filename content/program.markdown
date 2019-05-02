@@ -12,5 +12,6 @@ See the [venue](venue.html) page for more details.
 
 
 [Downloadable Version](schedule.pdf)
+[Printable Version (With Abstracts)](schedule_handout.pdf)
 
 [Abstracts](abstracts.html)

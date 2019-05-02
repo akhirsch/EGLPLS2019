@@ -24,6 +24,6 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
-    match "schedule.pdf" $ do
+    match "*.pdf" $ do
       route   idRoute
       compile copyFileCompiler
